@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Open+Sans&display=swap');
+
+:root {
+  --font-family: 'Open Sans', sans-serif;
+  --title-font: 'Bubblegum Sans', cursive;
+
+  --gradient-text: linear-gradient(90deg, rgba(184, 163, 205, 1) 0%, rgba(121, 61, 255, 1) 100%);
+  --gradient-bar: linear-gradient(90deg, rgba(238, 221, 255, 1) 0%, rgba(121, 61, 255, 1) 100%);
+  
+  --color-bg: rgba(5, 0, 5, 1);
+  --color-text: #B9AEB9;
+  --color-subtext: #827B8D;
+  --color-yellow: #FED766;
+  --color-grey:#1f2022;
+}

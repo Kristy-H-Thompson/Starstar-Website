@@ -1,0 +1,47 @@
+.commandType {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    padding: 2rem;
+    margin: 4rem;
+    border-radius: 1rem;
+    background: var(--color-grey)
+}
+
+.commandType-content {
+    display: flex;
+    flex-direction: column;
+
+    text-align: left;
+    color: #fff;
+}
+
+.commandTypecontent h3 {
+    font-family: var(--font-family);
+    font-size: 24px;
+    line-height: 45px;
+    font-weight: 800;
+}
+
+
+@media screen and (max-width: 650px) {
+    .commandType {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .commandType {
+        flex-direction: column;
+        margin: 4rem 2rem;
+    }
+
+    .commandType-content h3 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+}
