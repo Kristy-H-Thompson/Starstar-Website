@@ -8,7 +8,7 @@ import './commands.css';
 const gamesData = [
     {
       title: "/game guessThatCharacter",
-      text: 'Can you correctly identify the name of a <i>Warriors</i> book character based solely on their image or description? Your task is to select the correct name from the three given choices ',
+      text: 'Can you accurately recognize the name of a character from the book series by only viewing their image or description? Your challenge is to choose the correct name from three given options.Guess correctly and earn stars! ',
     },
     {
       title: '/game cookieThief',
@@ -28,7 +28,7 @@ const gamesData = [
     },
     {
       title: '/game avoidTheLeader',
-      text: 'Work with yourclan mates to count as high as you can, before your leader catches you and resets the count back to 0',
+      text: 'Work with your clan mates to count as high as you can, before your leader catches you and resets the count back to 0',
     },
   ];
 
