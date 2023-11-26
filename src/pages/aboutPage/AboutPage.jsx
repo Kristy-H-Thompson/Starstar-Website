@@ -1,6 +1,6 @@
 import React from 'react-dom/client';
 import './aboutPage.css';
-import starstar from '../../assets/starstarSmile.png';
+import starstar from '../../assets/starstar-tongue.png';
 
 
 const About = () => (
