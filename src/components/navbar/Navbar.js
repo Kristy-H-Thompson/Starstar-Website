@@ -9,6 +9,7 @@ import { Outlet, Link } from "react-router-dom";
 const Menu = () => (
   <>
   <p><Link to='/'>Home</Link></p>
+  <p><Link to='/'>About</Link></p>
   <p><Link to='/commands'>Commands</Link></p>
   </>
 )
