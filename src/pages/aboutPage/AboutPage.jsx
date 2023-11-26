@@ -1,5 +1,4 @@
 import React from 'react-dom/client';
-import Feature from '../../components/feature/Feature';
 import './aboutPage.css';
 import starstar from '../../assets/starstarSmile.png';
 
