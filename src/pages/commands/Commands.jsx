@@ -5,7 +5,7 @@ import './commands.css';
 
 
 
-const gamesData = [
+const gamesCommands = [
     {
       title: "/game guessThatCharacter",
       text: 'Can you accurately recognize the name of a character from the book series by only viewing their image or description? Your challenge is to choose the correct name from three given options.Guess correctly and earn stars! ',
@@ -33,7 +33,7 @@ const gamesData = [
   ];
 
 
-  const funData = [
+  const funCommands = [
     {
       title: "/fun 8ball",
       text: 'Get some sassy advice from Starstar',
@@ -57,7 +57,7 @@ const gamesData = [
   ];
 
 
-  const storeData = [
+  const storeCommands = [
     {
       title: "/store buy",
       text: "buy an item from Starstar's store",
@@ -85,7 +85,7 @@ const gamesData = [
   ];
   
 
-  const creativityData = [
+  const creativityCommands = [
     {
       title: "/creativity cat",
       text: "generate a unique warrior cat oc",
@@ -105,7 +105,7 @@ const gamesData = [
   ];
 
 
-  const helpData = [
+  const helpCommands = [
     {
       title: "/help bug",
       text: "report a bug",
@@ -117,7 +117,7 @@ const gamesData = [
   ];
 
 
-  const informationData = [
+  const informationCommands = [
     {
       title: "/information tos",
       text: "Starstar's terms of service",
@@ -145,7 +145,7 @@ const Commands = () => {
     <section className="commands">
         <CommandsType title="/game -- play games with Starstar or friends and earn stars! " />
     <div className="commands-container">
-      {gamesData.map((item, index) => (
+      {gamesCommands.map((item, index) => (
         <Feature title={item.title} text={item.text} key={item.title + index} />
       ))}
     </div>
@@ -154,14 +154,14 @@ const Commands = () => {
   <section className="commands">
     <CommandsType title="/fun -- some silly commands just for fun" />
     <div className="commands-container">
-      {funData.map((item, index) => (<Feature title={item.title} text={item.text} key={item.title + index} />))}
+      {funCommands.map((item, index) => (<Feature title={item.title} text={item.text} key={item.title + index} />))}
     </div>
   </section>
 
   <section className="commands">
     <CommandsType title="/store -- spend your hard earned stars on items and perks" />
     <div className="commands-container">
-      {storeData.map((item, index) => (<Feature title={item.title} text={item.text} key={item.title + index} />))}
+      {storeCommands.map((item, index) => (<Feature title={item.title} text={item.text} key={item.title + index} />))}
     </div>
   </section>
 
@@ -169,21 +169,21 @@ const Commands = () => {
   <section className="commands">
     <CommandsType title="/creativity -- spark your creativity " />
     <div className="commands-container">
-      {creativityData.map((item, index) => (<Feature title={item.title} text={item.text} key={item.title + index} />))}
+      {creativityCommands.map((item, index) => (<Feature title={item.title} text={item.text} key={item.title + index} />))}
     </div>
   </section>
 
   <section className="commands">
     <CommandsType title="/help -- get help from the coders behind Starstar " />
     <div className="commands-container">
-      {helpData.map((item, index) => (<Feature title={item.title} text={item.text} key={item.title + index} />))}
+      {helpCommands.map((item, index) => (<Feature title={item.title} text={item.text} key={item.title + index} />))}
     </div>
   </section>
 
   <section className="commands">
     <CommandsType title="/information -- get information about Starstar" />
     <div className="commands-container">
-      {informationData.map((item, index) => (<Feature title={item.title} text={item.text} key={item.title + index} />))}
+      {informationCommands.map((item, index) => (<Feature title={item.title} text={item.text} key={item.title + index} />))}
     </div>
   </section>
 
